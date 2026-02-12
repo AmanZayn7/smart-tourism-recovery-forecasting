@@ -65,6 +65,18 @@ Variance-based metrics were interpreted cautiously in plateaued recovery regimes
 | Hong Kong   | Seasonal-Naïve   | MAPE ≈ 10.10% |
 All models were trained on 2017–2023 data and evaluated strictly on an unseen 2024 hold-out period.
 
+## Dashboard Preview
+
+### Bangkok – Forecast & Model Selection
+![Bangkok Forecast](assets/bangkok_forecast.png)
+
+### Hong Kong – 2024 Evaluation
+![Hong Kong Evaluation](assets/hk_evaluation.png)
+
+### Hong Kong – 12-Month Outlook
+![Hong Kong Outlook](assets/hk_outlook.png)
+
+
 
 ## Interpretation
 - Ridge Regression demonstrated strong robustness under volatile recovery conditions.
