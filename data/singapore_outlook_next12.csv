@@ -1,0 +1,13 @@
+date,forecast,model,notes
+2025-01-01,1373366,rf,Scenario forecast; COVID years excluded in training
+2025-02-01,1320255,rf,Scenario forecast; COVID years excluded in training
+2025-03-01,1294986,rf,Scenario forecast; COVID years excluded in training
+2025-04-01,1294751,rf,Scenario forecast; COVID years excluded in training
+2025-05-01,1366782,rf,Scenario forecast; COVID years excluded in training
+2025-06-01,1381869,rf,Scenario forecast; COVID years excluded in training
+2025-07-01,1383408,rf,Scenario forecast; COVID years excluded in training
+2025-08-01,1399857,rf,Scenario forecast; COVID years excluded in training
+2025-09-01,1340904,rf,Scenario forecast; COVID years excluded in training
+2025-10-01,1367741,rf,Scenario forecast; COVID years excluded in training
+2025-11-01,1308219,rf,Scenario forecast; COVID years excluded in training
+2025-12-01,1332365,rf,Scenario forecast; COVID years excluded in training

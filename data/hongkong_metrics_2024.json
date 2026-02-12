@@ -1,0 +1,18 @@
+{
+  "city": "Hong Kong",
+  "model": "snaive",
+  "train_period": "2017-01..2019-12 + 2023-01..2023-12",
+  "test_period": "2024-01..2024-12",
+  "rows_train": 60,
+  "rows_test": 12,
+  "r2": -8.09497690251843,
+  "mae": 875260.5833333334,
+  "rmse": 1292785.1646092439,
+  "mape": 23.281368247478294,
+  "model_card": {
+    "target": "arrivals",
+    "features": "lag-12 (same month last year)",
+    "hyperparams": "none",
+    "notes": "COVID years excluded; requires 2023 coverage"
+  }
+}

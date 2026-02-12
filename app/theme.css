@@ -1,0 +1,95 @@
+/* ====== Global ====== */
+:root{
+    --bg: #0f1115;         /* app background */
+    --surface: #171a21;    /* cards/sidebar */
+    --surface-2: #1f2530;  /* secondary cards */
+    --text: #e8eaed;       /* primary text */
+    --muted: #a2a8b3;      /* secondary text */
+    --accent: #78e08f;     /* accent (mint) */
+    --accent-2: #82ccdd;   /* accent alt (teal) */
+    --warn: #ffd166;       /* warning */
+    --error: #ff6b6b;      /* error */
+    --shadow: rgba(0,0,0,.35);
+    --radius: 14px;
+    --pad: 14px;
+  }
+  
+  html, body, [class*="css"] {
+    background: var(--bg) !important;
+    color: var(--text);
+    font-family: ui-sans-serif, system-ui, -apple-system, "Inter", Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+    letter-spacing: .1px;
+  }
+  
+  /* Headings */
+  h1,h2,h3 {
+    color: var(--text);
+    margin: 0 0 .5rem 0;
+  }
+  h1 { font-weight: 800; font-size: 2.2rem; letter-spacing: -0.02em; }
+  h2 { font-weight: 700; font-size: 1.25rem; color: var(--muted); }
+  
+  /* ====== Sidebar ====== */
+  [data-testid="stSidebar"] {
+    background: var(--surface) !important;
+    border-right: 1px solid #0b0d11;
+  }
+  [data-testid="stSidebar"] * {
+    color: var(--text) !important;
+  }
+  
+  /* Selectbox chip text contrast */
+  .stSelectbox [data-baseweb="select"] {
+    color: var(--text);
+  }
+  
+  /* ====== Cards / badges ====== */
+  .metric-card {
+    background: var(--surface);
+    border: 1px solid #10131a;
+    border-radius: var(--radius);
+    padding: var(--pad);
+    box-shadow: 0 8px 24px var(--shadow);
+  }
+  .metric-card .label {
+    color: var(--muted);
+    font-size: .8rem;
+    margin-bottom: .25rem;
+  }
+  .metric-card .value {
+    color: var(--accent);
+    font-size: 1.25rem;
+    font-weight: 800;
+  }
+  
+  .badge {
+    display: inline-block;
+    background: var(--surface-2);
+    color: var(--text);
+    border: 1px solid #10131a;
+    border-radius: 999px;
+    padding: 6px 12px;
+    font-size: .8rem;
+    margin: .5rem 0 1rem 0;
+  }
+  
+  /* Info banner */
+  .info-banner {
+    background: #12161f;
+    border-left: 4px solid var(--accent-2);
+    color: var(--text);
+    border-radius: 10px;
+    padding: 12px 14px;
+    margin: 10px 0 16px 0;
+  }
+  
+  /* ====== Tables / DataFrames ====== */
+  [data-testid="stDataFrame"] {
+    background: var(--surface) !important;
+    border-radius: var(--radius);
+    box-shadow: 0 8px 24px var(--shadow);
+  }
+  [data-testid="stDataFrame"] * {
+    color: var(--text) !important;
+  }
+  

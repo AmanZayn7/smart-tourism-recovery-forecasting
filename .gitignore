@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+__MACOSX/
+
+# Python junk
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Env / secrets
+.env
+.venv/
+venv/
+env/
+traveler/
+
+# Streamlit secrets
+.streamlit/secrets.toml

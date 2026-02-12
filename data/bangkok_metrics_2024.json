@@ -1,0 +1,18 @@
+{
+  "city": "Bangkok",
+  "model": "ridge",
+  "train_period": "2017-01..2019-12 + 2023-01..2023-12",
+  "test_period": "2024-01..2024-12",
+  "rows_train": 36,
+  "rows_test": 12,
+  "r2": 0.06096938483461367,
+  "mae": 263970.8333333333,
+  "rmse": 297347.09974848136,
+  "mape": 9.059712499426464,
+  "model_card": {
+    "target": "log(arrivals) → exp inverse",
+    "features": "lag1,3,6,12 + roll3,6 + month dummies",
+    "hyperparams": "alpha=3.36",
+    "notes": "COVID years excluded"
+  }
+}
